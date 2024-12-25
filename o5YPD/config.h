@@ -2,6 +2,7 @@
   Set any config.h overrides for your specific keymap here.
   See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
 */
+#define ACHORDION_STREAK
 
 #undef IGNORE_MOD_TAP_INTERRUPT
 #undef DEBOUNCE
@@ -13,6 +14,7 @@
 #define PERMISSIVE_HOLD
 
 #define COMBO_TERM 70
+#define VOYAGER_USER_LEDS 1
 
 #define LAYER_LOCK_IDLE_TIMEOUT 180000
 #define USB_SUSPEND_WAKEUP_DELAY 0
